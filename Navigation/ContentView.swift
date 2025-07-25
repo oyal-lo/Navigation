@@ -25,12 +25,17 @@ struct ContentView: View {
                             .multilineTextAlignment(.center)
                     
                         NavigationLink(destination: SecondView()) {
-                            Text("Learn more")
+                            Text("Learn more 🤓")
                                 .font(.title)
                                 .foregroundColor(Color.blue)
                         }
                         NavigationLink(destination: ThirdView()) {
-                            Text("Meet the team")
+                            Text("Meet the team 👥")
+                                .font(.title)
+                        }
+                        NavigationLink(destination: FourthView()) {
+                            Text("Get help 🤔")
+                                .font(.title)
                         }
                     }
                     .navigationTitle("Home")
